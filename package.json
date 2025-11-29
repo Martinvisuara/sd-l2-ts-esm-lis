@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && cp index.html dist/index.html",
     "dev": "http-server & tsc -w",
     "start": "http-server",
     "deploy": "gh-pages -d dist"
